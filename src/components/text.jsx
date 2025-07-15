@@ -1,0 +1,1 @@
+export const Header = ({ heading, nodivider }) => (<div className="text-2xl text-center"><span className="leading-10">{heading}</span>{!nodivider && <hr />}</div>)
